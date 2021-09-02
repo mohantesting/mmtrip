@@ -49,7 +49,7 @@ public class BookFlight_stepdef {
 	public void user_select_non_stop_option_from_mumbai() throws Throwable {
 		bookFlight.clickOnNonstop();
 	}
-
+//book flight
 	@And("^user select (\\d+)AM-(\\d+)PM in departure from mumbai$")
 	public void user_select_AM_PM_in_departure_from_mumbai(int arg1, int arg2) throws Throwable {
 		bookFlight.checkflightTime();
