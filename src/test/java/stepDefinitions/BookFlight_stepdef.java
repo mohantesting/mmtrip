@@ -54,7 +54,7 @@ public class BookFlight_stepdef {
 	public void user_select_AM_PM_in_departure_from_mumbai(int arg1, int arg2) throws Throwable {
 		bookFlight.checkflightTime();
 	}
-
+//do it
 	@And("^user click on the view prices of the airline$")
 	public void user_click_on_the_view_prices_of_the_airline() throws Throwable {
 		bookFlight.clickOnViewPrice();
@@ -73,7 +73,7 @@ public class BookFlight_stepdef {
 
 		bookFlight.travellerDetails();
 	}
-	
+	//Verify my account
 	@Then("^verify amount$")
 	public void verify_amount() throws Throwable {
 
