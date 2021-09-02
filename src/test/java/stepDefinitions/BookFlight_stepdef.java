@@ -65,7 +65,7 @@ public class BookFlight_stepdef {
 		bookFlight.clickOnBookNow();
 		bookFlight.switchTabs();
 		
-	
+	//travel details
 	}
 
 	@And("^user enter travellerdetails$")
